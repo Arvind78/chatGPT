@@ -1,0 +1,17 @@
+.contenars {
+  height: 100vh;
+  width: 100%;
+}
+
+.navContenars {
+  height: 55px;
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  z-index: 4;
+}
+
+.routeContenars {
+  height: calc(100vh -55px);
+  width: 100%;
+}

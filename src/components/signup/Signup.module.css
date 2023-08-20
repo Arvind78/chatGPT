@@ -1,0 +1,683 @@
+.SignupContainer {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(233, 237, 240, 0.37) ;
+
+}
+
+.SignupForm {
+  height: 80%;
+  width: 35%;
+}
+
+.SignupFormHeading {
+  text-align: center;
+  padding: 10px 70px;
+}
+.SignupFormHeading h1 {
+    margin: 8px 0px;
+    font-size: 30px;
+  }
+  
+.SignupFormHeading p {
+  margin: 8px 0px;
+  font-size: 14px;
+}
+
+
+.SignupFormDeleits {
+  padding: 18px 60px;
+}
+.SignupFormName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SignupFirstName,
+.SignupLastName {
+  display: flex;
+  flex-direction: column;
+}
+
+.SignupFormEmail {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px;
+}
+
+.SignupFormPassword {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px;
+
+}
+
+.SignupFormConfirmPassword {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px;
+
+}
+
+.SignupSummitBtn {
+  width: 100%;
+  margin: 8px 0px;
+
+}
+
+.SignupSummitBtn button {
+  width: 100%;
+  padding: 7px 0px;
+  background-color: #03d6a5;
+  outline: none;
+  border: 0.3px solid rgba(233, 230, 230, 0.555);
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.SignupSummitBtn button:hover {
+  transition: 450ms ease;
+  background-color: #02b88d;
+}
+
+.SignupFormDeleits input {
+  width: 100%;
+  padding: 8px 6px;
+  outline: none;
+  border: 0.3px solid rgba(233, 230, 230, 0.555);
+  border-radius: 3px;
+}
+
+.SignupAlready {
+  text-align: center;
+  margin: 8px 0px;
+}
+
+.SignupAlready span {
+  color: #02b88d;
+  cursor: pointer;
+}
+
+
+.SignupFormDeleits label{
+    margin: 2px 3px;
+}
+
+
+@media (max-width:1200px) {
+    .SignupContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .SignupForm {
+        height: 80%;
+        width: 60%;
+      }
+      
+      .SignupFormHeading {
+        text-align: center;
+        padding: 10px 60px;
+      }
+      .SignupFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 30px;
+        }
+        
+      .SignupFormHeading p {
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+      
+      
+      .SignupFormDeleits {
+        padding: 18px 60px;
+      }
+      .SignupFormName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .SignupFirstName,
+      .SignupLastName {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .SignupFormEmail {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      }
+      
+      .SignupFormPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupFormConfirmPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn {
+        width: 100%;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn button {
+        width: 100%;
+        padding: 7px 0px;
+        background-color: #03d6a5;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      
+        cursor: pointer;
+      }
+      
+      .SignupSummitBtn button:hover {
+        transition: 450ms ease;
+        background-color: #02b88d;
+      }
+      
+      .SignupFormDeleits input {
+        width: 100%;
+        padding: 8px 6px;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 3px;
+      }
+      
+      .SignupAlready {
+        text-align: center;
+        margin: 8px 0px;
+      }
+      
+      .SignupAlready span {
+        color: #02b88d;
+        cursor: pointer;
+      }
+      
+      
+      .SignupFormDeleits label{
+          margin: 2px 3px;
+      }
+       
+}
+
+@media (max-width:760px) {
+    .SignupContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .SignupForm {
+        height: 80%;
+        width: 70%;
+      }
+      
+      .SignupFormHeading {
+        text-align: center;
+        padding: 10px 70px;
+      }
+      .SignupFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 30px;
+        }
+        
+      .SignupFormHeading p {
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+      
+      
+      .SignupFormDeleits {
+        padding: 18px 60px;
+      }
+      .SignupFormName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .SignupFirstName,
+      .SignupLastName {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .SignupFormEmail {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      }
+      
+      .SignupFormPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupFormConfirmPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn {
+        width: 100%;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn button {
+        width: 100%;
+        padding: 7px 0px;
+        background-color: #03d6a5;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      
+        cursor: pointer;
+      }
+      
+      .SignupSummitBtn button:hover {
+        transition: 450ms ease;
+        background-color: #02b88d;
+      }
+      
+      .SignupFormDeleits input {
+        width: 100%;
+        padding: 8px 6px;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 3px;
+      }
+      
+      .SignupAlready {
+        text-align: center;
+        margin: 8px 0px;
+      }
+      
+      .SignupAlready span {
+        color: #02b88d;
+        cursor: pointer;
+      }
+      
+      
+      .SignupFormDeleits label{
+          margin: 2px 3px;
+      }
+       
+}
+
+
+@media (max-width:660px) {
+    .SignupContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .SignupForm {
+        height: 80%;
+        width: 80%;
+      }
+      
+      .SignupFormHeading {
+        text-align: center;
+        padding: 10px 70px;
+      }
+      .SignupFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 28px;
+        }
+        
+      .SignupFormHeading p {
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+      
+      
+      .SignupFormDeleits {
+        padding: 18px 50px;
+      }
+      .SignupFormName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .SignupFirstName,
+      .SignupLastName {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .SignupFormEmail {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      }
+      
+      .SignupFormPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupFormConfirmPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn {
+        width: 100%;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn button {
+        width: 100%;
+        padding: 7px 0px;
+        background-color: #03d6a5;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      
+        cursor: pointer;
+      }
+      
+      .SignupSummitBtn button:hover {
+        transition: 450ms ease;
+        background-color: #02b88d;
+      }
+      
+      .SignupFormDeleits input {
+        width: 100%;
+        padding: 8px 6px;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 3px;
+      }
+      
+      .SignupAlready {
+        text-align: center;
+        margin: 8px 0px;
+      }
+      
+      .SignupAlready span {
+        color: #02b88d;
+        cursor: pointer;
+      }
+      
+      
+      .SignupFormDeleits label{
+          margin: 2px 3px;
+      }
+       
+}
+
+
+@media (max-width:550px) {
+    .SignupContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .SignupForm {
+        height: 80%;
+        width: 100%;
+      }
+      
+      .SignupFormHeading {
+        text-align: center;
+        padding: 10px 70px;
+      }
+      .SignupFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 30px;
+        }
+        
+      .SignupFormHeading p {
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+      
+      
+      .SignupFormDeleits {
+        padding: 18px 30px;
+      }
+      .SignupFormName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .SignupFirstName,
+      .SignupLastName {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .SignupFormEmail {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      }
+      
+      .SignupFormPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupFormConfirmPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn {
+        width: 100%;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn button {
+        width: 100%;
+        padding: 7px 0px;
+        background-color: #03d6a5;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      
+        cursor: pointer;
+      }
+      
+      .SignupSummitBtn button:hover {
+        transition: 450ms ease;
+        background-color: #02b88d;
+      }
+      
+      .SignupFormDeleits input {
+        width: 100%;
+        padding: 8px 6px;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 3px;
+      }
+      
+      .SignupAlready {
+        text-align: center;
+        margin: 8px 0px;
+      }
+      
+      .SignupAlready span {
+        color: #02b88d;
+        cursor: pointer;
+      }
+      
+      
+      .SignupFormDeleits label{
+          margin: 2px 3px;
+      }
+       
+}
+
+@media (max-width:430px) {
+    .SignupContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .SignupForm {
+        height: 100%;
+        width: 100%;
+      }
+      
+      .SignupFormHeading {
+        text-align: center;
+        padding: 10px 20px;
+      }
+      .SignupFormHeading h1 {
+          margin: 8px 0px;
+          font-size:18px;
+        }
+        
+      .SignupFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .SignupFormDeleits {
+        padding: 18px 30px;
+      }
+      .SignupFormName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .SignupFirstName,
+      .SignupLastName {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .SignupFormEmail {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      }
+      
+      .SignupFormPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupFormConfirmPassword {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn {
+        width: 100%;
+        margin: 8px 0px;
+      
+      }
+      
+      .SignupSummitBtn button {
+        width: 100%;
+        padding: 7px 0px;
+        background-color: #03d6a5;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      
+        cursor: pointer;
+      }
+      
+      .SignupSummitBtn button:hover {
+        transition: 450ms ease;
+        background-color: #02b88d;
+      }
+      
+      .SignupFormDeleits input {
+        width: 100%;
+        padding: 8px 6px;
+        outline: none;
+        border: 0.3px solid rgba(233, 230, 230, 0.555);
+        border-radius: 3px;
+      }
+      
+      .SignupAlready {
+        text-align: center;
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+      
+      .SignupAlready span {
+        color: #02b88d;
+        cursor: pointer;
+      }
+      
+      
+      .SignupFormDeleits label{
+          margin: 2px 3px;
+      }
+       
+}

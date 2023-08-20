@@ -1,0 +1,245 @@
+.LoginContainer {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(233, 237, 240, 0.37) ;
+
+  }
+  
+  .LoginForm {
+    height: 80%;
+    width: 38%;
+  }
+  
+  .LoginFormHeading {
+    text-align: center;
+    padding: 10px 70px;
+  }
+  .LoginFormHeading h1 {
+      margin: 8px 0px;
+      font-size: 30px;
+    }
+    
+  .LoginFormHeading p {
+    margin: 8px 0px;
+    font-size: 14px;
+  }
+  
+  .forgetPassword{
+    text-align: right;
+    width: 100%;
+    color: #02b88d;
+    padding: 2px 10px;
+  }
+  .LoginFormDeleits {
+    padding: 18px 60px;
+  }
+   
+  
+  .LoginFormEmail {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+  }
+  
+  .LoginFormPassword {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+  
+  }
+  
+  
+  .LoginSummitBtn {
+    width: 100%;
+    margin: 8px 0px;
+  
+  }
+  
+  .LoginSummitBtn button {
+    width: 100%;
+    padding: 7px 0px;
+    background-color: #03d6a5;
+    outline: none;
+    border: 0.3px solid rgba(233, 230, 230, 0.555);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+  
+    cursor: pointer;
+  }
+  
+  .LoginSummitBtn button:hover {
+    transition: 450ms ease;
+    background-color: #02b88d;
+  }
+  
+  .LoginFormDeleits input {
+    width: 100%;
+    padding: 10px 6px;
+    outline: none;
+    border: 0.3px solid rgba(233, 230, 230, 0.555);
+    border-radius: 3px;
+  }
+  
+  .LoginAlready {
+    text-align: center;
+    margin: 8px 0px;
+  }
+  
+  .LoginAlready span {
+    color: #02b88d;
+    cursor: pointer;
+  }
+  
+  
+  .LoginFormDeleits label{
+      margin: 2px 3px;
+  }
+  
+ 
+
+  @media (max-width:1250px) {
+    .LoginContainer {
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .LoginForm {
+        height: 80%;
+        width: 55%;
+      }
+      
+      .LoginFormHeading {
+        text-align: center;
+        padding: 10px 60px;
+      }
+      .LoginFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 30px;
+        }
+        
+      .LoginFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .LoginFormDeleits {
+        padding: 18px 40px;
+      }
+  }  
+ 
+  @media (max-width:1050px) {
+    .LoginContainer {
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .LoginForm {
+        height: 100%;
+        width: 55%;
+      }
+      
+      .LoginFormHeading {
+        text-align: center;
+        padding: 10px 50px;
+      }
+      .LoginFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 30px;
+        }
+        
+      .LoginFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .LoginFormDeleits {
+        padding: 18px 40px;
+      }
+  }
+ 
+  @media (max-width:750px) {
+    .LoginContainer {
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .LoginForm {
+        height: 80%;
+        width: 70%;
+      }
+      
+      .LoginFormHeading {
+        text-align: center;
+        padding: 10px 40px;
+      }
+      .LoginFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 22px;
+        }
+        
+      .LoginFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .LoginFormDeleits {
+        padding: 18px 30px;
+      }
+  } 
+
+ 
+  
+  @media (max-width:350px) {
+    .LoginContainer {
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .LoginForm {
+        height: 80%;
+        width: 100%;
+      }
+      
+      .LoginFormHeading {
+        text-align: center;
+        padding: 10px 20px;
+      }
+      .LoginFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 20px;
+        }
+        
+      .LoginFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .LoginFormDeleits {
+        padding: 18px 10px;
+      }
+      .LoginAlready {
+        text-align: center;
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+  }
