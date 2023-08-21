@@ -26,7 +26,7 @@ const Login = () => {
     setLoading(true);
 
     axios
-      .post("http://localhost:8080/api/login", LoginDeteils)
+      .post("https://chatgpt-4fg0.onrender.com/api/login", LoginDeteils)
       .then((res) => {
         api.success({
           message: `Login success`,
@@ -139,7 +139,7 @@ export const ForgetPassword = () => {
   const handleOk = () => {
     if (toggle == false) {
       axios
-        .put("http://localhost:8080/api/forgot", { email })
+        .put("https://chatgpt-4fg0.onrender.com/api/forgot", { email })
         .then((res) => {
           api.success({
             message: `Email verification success`,

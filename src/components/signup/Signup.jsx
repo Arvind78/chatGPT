@@ -107,7 +107,7 @@ const Signup = () => {
       return false;
     }
     setLoading(true)
-    axios.post("http://localhost:8080/api/signup", signupDeteils)
+    axios.post("https://chatgpt-4fg0.onrender.com/api/signup", signupDeteils)
 
       .then((res) => {
         setLoading(false)
