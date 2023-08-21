@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import signup from "./signup.module.css";
+import signup from "./Signup.module.css";
 import { useNavigate } from "react-router-dom";
 import { notification } from "antd";
 import {useDispatch} from "react-redux"
