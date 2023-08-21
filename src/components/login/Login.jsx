@@ -196,7 +196,7 @@ export const ForgetPassword = () => {
       }
 
       axios
-        .put("http://localhost:8080/api/forgot", { email, password, userId })
+        .put("https://chatgpt-4fg0.onrender.com/api/forgot", { email, password, userId })
         .then((res) => {
           api.success({
             message: `Password forgot success`,
