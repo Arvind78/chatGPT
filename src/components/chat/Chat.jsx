@@ -24,7 +24,7 @@ const Chat =()=>{
    
 const chatgtpHandler =()=>{
   setLoading(true)
-   axios.post("http://localhost:8080/chat",{prompt}).then((res)=>{
+   axios.post("https://chatgptserver-tibl.onrender.com/chat",{prompt}).then((res)=>{
     
      setResult(res.data.result)
      setLoading(false)
