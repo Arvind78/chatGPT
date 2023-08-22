@@ -116,8 +116,7 @@ const Signup = () => {
           description: res.data.message,
           placement: "top",
         });
-        dispatch(signupSccuess(res.data.user))
-       
+      Navigate("/login")
       })
       .catch((err) => {
         setLoading(false)
