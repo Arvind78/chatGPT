@@ -107,7 +107,7 @@ const Signup = () => {
       return false;
     }
     setLoading(true)
-    axios.post("https://chatgpt-4fg0.onrender.com/api/signup", signupDeteils)
+    axios.post("https://chatgptserver-tibl.onrender.com/api/signup", signupDeteils)
 
       .then((res) => {
         setLoading(false)
@@ -116,7 +116,7 @@ const Signup = () => {
           description: res.data.message,
           placement: "top",
         });
-        dispatch(signupSccuess(res.data.user))
+       Navigate("/login") 
        
       })
       .catch((err) => {

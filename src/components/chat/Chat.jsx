@@ -138,7 +138,7 @@ const ResponsivChat =({prompt,setPrompt,result,setResult})=>{
 
 const chatgtpHandler =()=>{
   setLoading(true)
-   axios.post("https://chatgpt-4fg0.onrender.com/chat",{prompt}).then((res)=>{
+   axios.post("https://chatgptserver-tibl.onrender.com/chat",{prompt}).then((res)=>{
     
      setResult(res.data.result)
      setLoading(false)
