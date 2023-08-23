@@ -119,7 +119,7 @@ const Signup = () => {
         setTimeout(() => {
        Navigate("/login") 
           
-        }, 2000);
+        },4000);
        
       })
       .catch((err) => {
