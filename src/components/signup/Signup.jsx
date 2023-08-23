@@ -116,8 +116,12 @@ const Signup = () => {
           description: res.data.message,
           placement: "top",
         });
+<<<<<<< HEAD
        Navigate("/login") 
        
+=======
+      Navigate("/login")
+>>>>>>> c2c88fb0501172c7549dd84e2c9a92cf420f9a12
       })
       .catch((err) => {
         setLoading(false)
