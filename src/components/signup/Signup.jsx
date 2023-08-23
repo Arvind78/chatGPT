@@ -116,7 +116,10 @@ const Signup = () => {
           description: res.data.message,
           placement: "top",
         });
+        setTimeout(() => {
        Navigate("/login") 
+          
+        }, 2000);
        
       })
       .catch((err) => {
