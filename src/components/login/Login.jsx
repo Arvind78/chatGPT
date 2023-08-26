@@ -111,8 +111,8 @@ const Login = () => {
           </div>
           <div className={login.LoginAlready}>
             <p>
-              Don't have an account?
-              <span onClick={() => Navigate("/signup")}>Signup</span>
+              Don't have an account? 
+               <span onClick={() => Navigate("/signup")}>Signup</span>
             </p>
           </div>
         </div>
