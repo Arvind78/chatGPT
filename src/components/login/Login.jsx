@@ -112,7 +112,7 @@ const Login = () => {
           <div className={login.LoginAlready}>
             <p>
               Don't have an account?
-              <span onClick={() => Navigate("/signup")}>Signup</span>
+              <span onClick={() => Navigate("/signup")}> Signup</span>
             </p>
           </div>
         </div>
