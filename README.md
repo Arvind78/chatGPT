@@ -29,9 +29,9 @@ Follow the steps below to set up and run the project on your local machine.
 1. Clone the repository:
 
    ```bash
-  frontend git clone https://github.com/Arvind78/chatGPT.git
-  backend git clone  https://github.com/Arvind78/chatgptserver.git
-   ```
+   frontend git clone https://github.com/Arvind78/chatGPT.git
+   backend git clone  https://github.com/Arvind78/chatgptserver.git
+      ```
 
 2. Install frontend dependencies:
 
@@ -45,7 +45,7 @@ Follow the steps below to set up and run the project on your local machine.
    In the `backend` folder, create a `.env` file and add your MongoDB connection URI:
 
    ```env
-   MONGODB_URI=your_mongodb_connection_uri
+ Db_Url="mongodb+srv://chatgpt:7080162391@cluster0.vn12nqf.mongodb.net/?retryWrites=true&w=majority"
    ```
 
 4. Obtain your GPT-3.5 API key:
