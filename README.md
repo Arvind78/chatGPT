@@ -75,7 +75,7 @@ Follow the steps below to set up and run the project on your local machine.
 
 3. Access the application in your web browser:
 
-   Open your browser and navigate to `http://localhost:5173` to see the ChatGPT Clone application in action.
+ Open your browser and navigate to `http://localhost:5173` to see the ChatGPT Clone application in action.
 
 ## Usage
 
