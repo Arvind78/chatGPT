@@ -29,8 +29,7 @@ Follow the steps below to set up and run the project on your local machine.
 1. Clone the repository:
 
    ```bash
-   frontend git clone https://github.com/Arvind78/chatGPT.git
-   backend git clone  https://github.com/Arvind78/chatgptserver.git
+    git clone https://github.com/Arvind78/chatGPT.git
       ```
 
 2. Install frontend dependencies:
