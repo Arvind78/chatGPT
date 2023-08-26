@@ -29,18 +29,16 @@ Follow the steps below to set up and run the project on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Arvind78/chatGPT.git
-   cd chatgpt-clone
+  # frontend git clone https://github.com/Arvind78/chatGPT.git
+  # backend git clone  https://github.com/Arvind78/chatgptserver.git
    ```
 
-2. Install frontend and backend dependencies:
+2. Install frontend dependencies:
 
    ```bash
-   cd frontend
+   cd chatGPT
    npm install
-   cd ../backend
-   npm install
-   ```
+     ```
 
 3. Configure the MongoDB connection:
    
@@ -60,6 +58,7 @@ Follow the steps below to set up and run the project on your local machine.
 
 ### Running the Application
 
+ 
 1. Start the backend server:
 
    ```bash
@@ -70,7 +69,6 @@ Follow the steps below to set up and run the project on your local machine.
 2. Start the frontend development server:
 
    ```bash
-   cd frontend
    cd chatgpt
    npm run dev
    ```
