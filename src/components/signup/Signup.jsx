@@ -112,7 +112,7 @@ const Signup = () => {
       .then((res) => {
         setLoading(false)
         api.success({
-          message: `Signup verification success`,
+          message: `User signup success`,
           description: res.data.message,
           placement: "top",
         });
@@ -125,7 +125,7 @@ const Signup = () => {
       .catch((err) => {
         setLoading(false)
         api.error({
-          message: `Signup verification field`,
+          message: ` user signup  field`,
           description: err.response.data.message||"something went wrong",
           placement: "top",
         });

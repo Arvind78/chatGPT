@@ -138,18 +138,18 @@ const ResponsivChat =({prompt,setPrompt,result,setResult})=>{
 
 const chatgtpHandler =()=>{
   setLoading(true)
-   axios.post("https://chatgptserver-tibl.onrender.com/chat",{prompt}).then((res)=>{
-    
-     setResult(res.data.result)
-     setLoading(false)
+  axios.post("https://chatgptserver-tibl.onrender.com/api/chat",{prompt}).then((res)=>{
+   
+    setResult(res.data.result)
+    setLoading(false)
 
-   }).catch((err)=>{
-  setLoading(false)
+  }).catch((err)=>{
+ setLoading(false)
 
-    throw err
+   throw err
 
 })
-   setPrompt("")
+  setPrompt("")
 
 }
     return(
