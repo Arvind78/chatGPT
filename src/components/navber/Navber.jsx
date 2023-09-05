@@ -18,7 +18,7 @@ const Navber = () => {
           </NavLink> 
         </div>
    {
-   (user)? <div> <Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} /> <span style={{textTransform:"capitalize",color:"#00a67e"}}><i><b>{user?.firstName+" "+user?.lastName }</b> </i></span> </div>:
+   (user)? <div> <Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} /> <span style={{textTransform:"capitalize",color:"#00a67e"}}><i><b>{user?.firstName}</b> </i></span> </div>:
         <nav>
             <NavLink to={"/login"} className={menu.anchor}>Login</NavLink>
             <NavLink to={"/signup"} className={menu.anchor}>Signup</NavLink>
