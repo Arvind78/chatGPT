@@ -203,6 +203,44 @@
       }
   } 
 
+  @media (max-width:550px) {
+    .LoginContainer {
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .LoginForm {
+        height: 80%;
+        width: 80%;
+      }
+      
+      .LoginFormHeading {
+        text-align: center;
+        padding: 10px 20px;
+      }
+      .LoginFormHeading h1 {
+          margin: 8px 0px;
+          font-size: 20px;
+        }
+        
+      .LoginFormHeading p {
+        margin: 8px 0px;
+        font-size: 12px;
+      }
+      
+      
+      .LoginFormDeleits {
+        padding: 18px 10px;
+      }
+      .LoginAlready {
+        text-align: center;
+        margin: 8px 0px;
+        font-size: 14px;
+      }
+  }
  
   
   @media (max-width:350px) {
