@@ -152,8 +152,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     flex-direction: column;
-gap: 16px;  }
+gap: 16px;  
+
+}
   
 
   
@@ -176,7 +179,10 @@ gap: 16px;  }
     display: flex;
     padding:10px 4px;
     cursor: pointer;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap:70px;
   }
 
   .sidenav .inputBox div{
@@ -188,13 +194,14 @@ gap: 16px;  }
  border: 1px solid lightgray;
  height: fit-content;
   }
-
+ 
   .sidenav .inputBox a{
     font-size:18px;
     text-decoration: none;
     color: aliceblue;
   }
 
+ 
 
 
   @media (max-width:900px) {

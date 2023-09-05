@@ -7,6 +7,7 @@ import ReactLoading from 'react-loading';
 import axios from "axios";
 import { logout } from "../../redux/userSlice";
 import { useNavigate } from "react-router-dom";
+import adsModel from "../../assets/adsModel.png"
 const Chat =()=>{
   const user = useSelector((state)=>state.user)
   const [loading, setLoading] = useState(false);
@@ -56,6 +57,9 @@ const logoutHandler =()=>{
                     <div>
                        <a href="/">+ New Chat </a> 
                     </div>
+             
+                      <img src={adsModel} alt="" height={"300px"} />
+           
                 </div>
                 <div  className={chat.logOut}>
                     <h3>Welcome to chatGPT</h3>
