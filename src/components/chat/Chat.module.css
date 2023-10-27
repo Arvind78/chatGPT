@@ -616,3 +616,19 @@ gap: 16px;
 }
     
   }
+
+  @media (max-width:640px) {
+
+  .chatRusultM{
+    margin:10px 0px;
+    height:240px;
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+    padding:15px;
+    justify-content: center;
+    overflow-y: scroll;
+  
+  }
+
+}

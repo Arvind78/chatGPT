@@ -10,7 +10,7 @@
   
   .LoginForm {
     height: 80%;
-    width: 38%;
+    width: 35%;
   }
   
   .LoginFormHeading {
@@ -32,6 +32,7 @@
     width: 100%;
     color: #02b88d;
     padding: 2px 10px;
+    cursor: pointer;
   }
   .LoginFormDeleits {
     padding: 18px 60px;
