@@ -50,12 +50,15 @@
 }
 
 .sendIcon {
-  color: lightgray;
+  color: white;
+  background-color:#00a67e;
+  border-radius: 4px;
+  padding: 0px 10px;
 }
 
 .sendIcon:hover {
   transition: 450ms ease;
-  color: #00a67e;
+  color: #cdd1d0;
 }
 
 .inputField input::placeholder {
@@ -76,7 +79,8 @@
 .chatsub{
     /* background-color: aqua; */
     overflow-y: scroll;
-    height:440px;
+    height:430px;
+    margin: 10px 0px;
   padding:20px 0px;
  
 }
@@ -100,7 +104,7 @@
   height: 100%;
   width: 100%;
   color: #cfd0d19d;
-  padding: 15px 22px;
+  padding: 15px 5px;
  
 }
 
@@ -111,7 +115,8 @@
   justify-content: center;
  align-items: center;
  gap: 20px;
- margin-top: 20px;
+ margin-top:0px;
+ overflow-y: scroll;
 }
 
 .chatInfo section{
@@ -121,6 +126,7 @@
     justify-content: center;
     align-items: center;
     width:35%;
+    overflow-y: scroll;
  
  
 }
@@ -292,6 +298,8 @@ gap: 16px;
         border-radius: 5px;
         position: relative;
         border: 0.5px solid rgb(167, 163, 163);
+ overflow-y: scroll;
+
       }
       
       .chatResultInfo div {
@@ -302,6 +310,8 @@ gap: 16px;
         padding: 15px 10px;
         text-align: justify;
         font-size: 14px;
+ overflow-y: scroll;
+
       }
       
       .chatInfo {
@@ -312,7 +322,10 @@ gap: 16px;
        align-items: center;
        gap: 20px;
        margin-top: 20px;
+ overflow-y: scroll;
+
       }
+
       
       .chatInfo section{
           height:160px;
@@ -332,6 +345,8 @@ gap: 16px;
           height:100px;
           padding: 8px;
           border-radius: 5px;
+ overflow-y: scroll;
+
       }
       
       
