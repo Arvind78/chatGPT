@@ -99,7 +99,13 @@ const logoutHandler =()=>{
                         <div className={chat.chatResultInfo}>
                         < Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} />
                     <div  >
-                        <p>{result}</p>
+                        
+                          <pre style={{textAlign:"justify"}}>
+                          <p style={{textAlign:"justify"}}>
+                          {result}
+                          </p>
+
+                          </pre>
                     </div>
                   
                 </div>
@@ -108,7 +114,7 @@ const logoutHandler =()=>{
                 
                 </div>
                 </div>
-                <br />
+               
                 <div className={chat.inputBtn}>
                 <div className={chat.inputFields} >
                 < Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} />
@@ -196,7 +202,11 @@ const chatgtpHandler =()=>{
                     <div className={chat.chatResultInfoM}>
                             < Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} />
                         <div  >
-                         <p>{result}</p>
+                         <p>
+                        
+                          {result}
+                    
+                          </p>
                         </div>
                      
                     </div>
