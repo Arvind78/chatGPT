@@ -218,7 +218,7 @@ const chatgtpHandler =()=>{
                 < Avatar src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png" size={45} />
                     <input type="text" onChange={(e)=>setPrompt(e.target.value)} value={prompt} placeholder="write your queries..." />
                   {(!loading)?
-                  <AiOutlineSend size={25} className={chat.sendIcon} onClick={chatgtpHandler}/>:
+                  <AiOutlineSend size={50} className={chat.sendIcon} onClick={chatgtpHandler}/>:
 
                    <ReactLoading type={"spin"} color={"green"} height={'20px'} width={'20px'} />
                   }
