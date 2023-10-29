@@ -167,12 +167,11 @@ const chatgtpHandler =()=>{
     return(
         <>
          <div  className={chat.MobileinputBox}>
-                    <div> 
-                       <a href="/"> </a> 
+                    <div > 
+                
 
-                       <p> New Chat </p> 
-                       <a href="/" style={{fontSize:"20px"}}> + </a> 
-
+                       <p style={{textAlign:'center'}}> New Chat </p> 
+                     
                     </div>
                 </div>
                 <div className={chat.chatResInfo} >

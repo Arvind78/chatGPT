@@ -12,7 +12,7 @@
 .chatMain {
   height:100%;
   width:80%;
-  /* background-color: #343541; */
+  background-color: #343541;
 }
 
 .inputBtn {
@@ -442,7 +442,7 @@ gap: 16px;
     background-color: #343541;
     display: flex;
    align-items:center ;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     padding: 8px 30px ;
     color: rgba(222, 227, 231, 0.527);
