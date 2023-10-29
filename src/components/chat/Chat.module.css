@@ -23,7 +23,11 @@
   gap: 10px;
   width: 100%;
   margin-bottom: 30px;
-
+  position: fixed;
+  top: 90%;
+  /* right: 50%; */
+  left:10%;
+/* background-color:red; */
 }
 
 .inputField {
@@ -50,15 +54,15 @@
 }
 
 .sendIcon {
-  color: white;
-  background-color:#00a67e;
+  color: rgb(136, 131, 131);
+ 
   border-radius: 4px;
   padding: 0px 10px;
 }
 
 .sendIcon:hover {
   transition: 450ms ease;
-  color: #cdd1d0;
+  color: #00a67e;
 }
 
 .inputField input::placeholder {
@@ -338,6 +342,20 @@ gap: 16px;
        
       }
       
+      .inputBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       /* background-color: aliceblue; */
+        gap: 10px;
+        width: 80%;
+        margin-bottom: 30px;
+        position: fixed;
+        top: 90%;
+        /* right: 50%; */
+        left:25%;
+      /* background-color:red; */
+      }
       .chatInfo section div{
           margin: 10px 0px;
           background-color: #ece9e981;
@@ -553,7 +571,22 @@ gap: 16px;
         font-size: 14px;
         color: #343541;;
       }
+      .inputBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       /* background-color: aliceblue; */
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 30px;
+        position: fixed;
+        top: 90%;
+        /* right: 50%; */
+ left: 0%;
+      /* background-color:red; */
+      }
   }
+
 
   
   @media (max-width:640px) {
@@ -652,6 +685,9 @@ gap: 16px;
     position: relative;
     border: 0.5px solid rgb(167, 163, 163);
   }
+  .inputBtn {
+    top: 93%;
+  }
     
   }
 
@@ -715,6 +751,10 @@ gap: 16px;
         justify-content: center;
         overflow-y: scroll;
     }
+    .inputBtn {
+      top: 93%;
+    }
+      
       }
     
 
@@ -731,4 +771,8 @@ gap: 16px;
     overflow-y: scroll;
 }
 
+.inputBtn {
+  top: 92%;
+}
+  
   }
