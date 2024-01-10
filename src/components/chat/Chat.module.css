@@ -113,7 +113,7 @@
 }
 
 .chatInfo {
-  height:220px;
+  height:120px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -124,7 +124,7 @@
 }
 
 .chatInfo section{
-    height:160px;
+    height:120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,19 +142,21 @@
     height:100px;
     padding: 8px;
     border-radius: 5px;
+    font-size: 16px;
+
 }
 
 
 .chatInfo section div h3{
     font-weight: 400;
-    font-size:18px;
+    font-size:14px;
     color: #03040c;
 }
 
 
 .chatInfo section div p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #e8e8e98e;
 }
 
@@ -196,6 +198,7 @@ gap: 16px;
     justify-content: center;
     align-items: center;
     gap:70px;
+    color: aliceblue;
   }
 
   .sidenav .inputBox div{
@@ -703,7 +706,10 @@ gap: 16px;
         justify-content: center;
         overflow-y: scroll;
     }
-    
+    #optionContainer{
+      display: none;
+      background: #000;
+    }
       }
 
       
@@ -752,14 +758,14 @@ gap: 16px;
         overflow-y: scroll;
     }
     .inputBtn {
-      top: 93%;
+      top: 90%;
     }
-      
+  
       }
     
 
   @media (max-width: 400px){
- 
+     
 .chatRusultM {
     margin: 10px 0px;
     height: 235px;

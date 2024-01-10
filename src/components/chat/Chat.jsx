@@ -73,7 +73,7 @@ const logoutHandler =()=>{
                <div className={chat.chatsub}>
                 <div className={chat.chatInfo} >
                     <section>
-                        <div>
+                        <div >
                             <h3>Give me idea</h3>
                             <p>for what to do with my kids'art</p>
                         </div>
@@ -82,7 +82,7 @@ const logoutHandler =()=>{
                             <p>to a kinderhartener</p>
                         </div>
                     </section>
-                    <section>  
+                    <section id={chat.optionContainer}>  
                          <div>
                          <h3>Show me code snippet</h3>
                             <p>of a website's sticky header</p>
